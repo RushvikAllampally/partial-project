@@ -6,43 +6,40 @@ export class Courosols extends Component {
     return (
       <div>
         <Carousel>
-  <Carousel.Item interval={1000}>
+  <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
-      src="logo192.png"
+      src="view3.png"
       alt="First slide"
-      width={171}
-      height={180}
+    
     />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    <Carousel.Caption  >
+      <h3>We Helped Phenom get this Review</h3>
+      <p>They are our regular customer.They love us alot</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item interval={500}>
+  <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
-      src="logo192.png"
+      src="view2.png"
       alt="Second slide"
-      width={171}
-      height={180}
+      
     />
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <h3>We Helped Phenom get this Review</h3>
+      <p>They use our platform regularly.They are enjoying our services</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item interval={3000}>
     <img
       className="d-block w-100"
-      src="logo192.png"
+      src="view1.png"
       alt="Third slide"
-      width={171}
-      height={180}
+     
     />
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    <h3>We Helped Phenom get this Review</h3>
+      <p>Brother International is out regular customer.They love us alot</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

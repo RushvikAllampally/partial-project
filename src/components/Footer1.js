@@ -9,7 +9,7 @@ export class Footer1 extends Component {
        <div className="container-fluid text-center" style={{ backgroundColor: "black", color: "blue" }}>
             <div className="py-5">
                 <div className="col-12">
-                    <h2 className="text-light py-2">Interested in working with me ?</h2>
+                    <h2 className="text-light py-2">Interested in working with us ?</h2>
                     <button className="btn btn-outline-light btn-lg">Let's Talk</button>
                 </div>
             </div>
